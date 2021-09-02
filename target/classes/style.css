@@ -1,0 +1,97 @@
+.root{
+	-fx-font-size: 12pt;
+	-fx-background-color: rgb(0, 152, 45);
+	-fx-font-family: Palatino-Bold;
+	
+
+}
+
+.label{
+	-fx-font-size: 10pt;
+	-fx-text-fill: white;
+}
+
+.hand-label{
+	-fx-font-size: 18pt;
+	-fx-text-fill: black;
+	-fx-margin: 0px 0;
+	
+}
+
+.result-text{
+	-fx-font-size: 20pt;
+	-fx-text-fill: black;
+}
+
+
+
+.check-box > .box {
+    -fx-padding: -2px;
+}
+.check-box {
+    /* default properties */
+    selected-box-color: gray;
+    box-color: white;
+    mark-color: red;
+}
+
+.check-box:selected > .box {
+    /* background color for selected checkbox */
+    -fx-background-color: selected-box-color;
+}
+
+.check-box > .box {
+    /* background color of unselected checkbox */
+    -fx-background-color: box-color;
+}
+
+.check-box:selected > .box > .mark,
+.check-box:indeterminate  > .box > .mark {
+    /* modify mark color */
+    -fx-background-color: mark-color;
+}
+
+
+.option-label{
+	-fx-font-size: 20pt;
+	-fx-text-fill: black;
+}
+
+.option-group-1 {
+	-fx-background-color: red;
+	-fx-border-radius: 20;
+
+}
+
+.option-group-2 {
+	-fx-background-color: blue;
+		-fx-border-radius: 20;
+}
+
+/* Chart items */
+
+.chart-title {
+ 	-fx-font-size: 32px;
+  
+   -fx-text-fill: #F8F8F8;
+
+ }
+
+.chart-legend {
+   -fx-background-color: black;
+   -fx-padding: 20px;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: #3278fa;
+}
+
+
+
+.default-color0.chart-bar { -fx-bar-fill: red;}
+.default-color1.chart-bar { -fx-bar-fill: blue;}
+
+.chart-bar {
+   
+   /* -fx-bar-fill: blue; */
+}
